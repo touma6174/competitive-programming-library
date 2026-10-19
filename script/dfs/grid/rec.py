@@ -1,0 +1,28 @@
+# dfs再帰あり
+# 低速、TLE可能性あり
+
+import sys
+sys.setrecursionlimit(10**6)
+
+def dfs(r, c):
+    seen[r][c] = True
+    for d in range(4):
+        nr, nc = r+dr[d], c+dc[d]
+        if not (0 <= nr < H and 0 <= nc < W):
+            continue
+        if grid[nr][nc] == "#":
+            continue
+        if seen[nr][nc]:
+            continue
+        dfs(nr, nc)
+
+H, W = map(int, input().split())
+sr, sc = tuple(map(lambda x: int(x)-1, input().split()))
+
+grid = [list(input()) for _ in range(H)]
+seen = [[False] * W for _ in range(H)]
+
+dr = [-1, 0, 0, 1]
+dc = [0, -1, 1, 0]
+
+dfs(sr, sc)
