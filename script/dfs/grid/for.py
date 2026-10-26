@@ -1,4 +1,4 @@
-# dfs再帰なし
+# グリッドdfs再帰なし
 
 H, W = map(int, input().split())
 sr, sc = map(lambda x: int(x)-1, input().split())

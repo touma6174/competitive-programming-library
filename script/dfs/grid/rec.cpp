@@ -1,4 +1,4 @@
-// dfs再帰あり
+// グリッドdfs再帰あり
 
 #include <iostream>
 #include <vector>

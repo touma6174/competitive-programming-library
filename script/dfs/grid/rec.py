@@ -1,4 +1,4 @@
-# dfs再帰あり
+# グリッドdfs再帰あり
 # 低速、TLE可能性あり
 
 import sys

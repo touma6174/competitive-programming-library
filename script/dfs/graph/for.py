@@ -1,3 +1,5 @@
+# グラフdfs再帰なし
+
 N, M = map(int, input().split())
 S = int(input()) - 1
 
