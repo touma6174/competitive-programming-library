@@ -4,10 +4,18 @@
 #pragma GCC optimize("O3")
 #pragma GCC optimize("unroll-loops")
 #endif
-#include <bits/stdc++.h>
 #include <atcoder/all>
+#include <bits/stdc++.h>
 #define rep(i, n) for (int i = 0; i < (int)(n); ++i)
 #define rep2(i, s, n) for (int i = (s); i < (int)(n); ++i)
+#define all(v) (v).begin(), (v).end()
+inline void yn(bool x) { cout << (x ? "Yes" : "No") << "\n"; }
+inline void YN(bool x) { cout << (x ? "YES" : "NO") << "\n"; }
+constexpr char el = '\n';
+constexpr int dr[4] = {-1, 0, 0, 1};
+constexpr int dc[4] = {0, -1, 1, 0};
+constexpr int dr8[8] = {-1, -1, -1, 0, 0, 1, 1, 1};
+constexpr int dc8[8] = {-1, 0, 1, -1, 1, -1, 0, 1};
 using namespace std;
 using ll = long long;
 
