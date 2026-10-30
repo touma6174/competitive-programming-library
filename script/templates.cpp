@@ -6,6 +6,8 @@
 #endif
 #include <atcoder/all>
 #include <bits/stdc++.h>
+using namespace std;
+using ll = long long;
 #define rep(i, n) for (int i = 0; i < (int)(n); ++i)
 #define rep2(i, s, n) for (int i = (s); i < (int)(n); ++i)
 #define all(v) (v).begin(), (v).end()
@@ -16,8 +18,6 @@ constexpr int dr[4] = {-1, 0, 0, 1};
 constexpr int dc[4] = {0, -1, 1, 0};
 constexpr int dr8[8] = {-1, -1, -1, 0, 0, 1, 1, 1};
 constexpr int dc8[8] = {-1, 0, 1, -1, 1, -1, 0, 1};
-using namespace std;
-using ll = long long;
 
 int main() {
     ios::sync_with_stdio(false);
